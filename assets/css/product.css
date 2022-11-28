@@ -1,0 +1,295 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/*----------------------------- product page -------------------------- */
+    .features{
+        margin-bottom: 20px;
+      }
+    .features > h3{
+        margin: 50px 0px 10px;
+      }
+    .features > p{
+        margin: 10px 0px;
+        color: #fff;
+        font-size: 16px;
+      }
+      .simulation-wrapper{
+        height: 350px;
+    }
+    /* right side */
+    .feature-right-item{
+        margin: 5px auto;
+    }
+    .feature-right-item > i{
+        font-size: 30px; 
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .feature-right-item .feature-description-right{
+        left: 50px;
+      }
+    .feature-description-right > h3{
+        font-size: 20px;
+    }
+    .feature-description-right > p{
+        width: 195px;
+        font-size: 13px;
+    }
+    /* left side */
+    .icon-right{
+        display: none;
+    }
+    .icon-left{
+        display: block;
+    }
+    .feature-left-item{
+        justify-content: flex-start;
+        text-align: left;
+        margin: 5px auto;
+    }
+    .feature-left-item > i{
+        left: 30px;
+        font-size: 30px; 
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .feature-left-item .feature-description-left{
+        position: relative;
+        left: 50px;
+    }
+    .feature-description-left > h3{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .feature-description-left > p{
+        width: 195px;
+        font-size: 13px;
+    }
+    .closing-para > h4{
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+    /* recipes index.html*/
+    #recipes-title{
+        padding: 50px 0px 10px;
+        }
+    .form-container  h4{
+            font-size: 24px;
+        }
+    /* registration form panel image*/
+    .panel-img{
+        height: 400px; 
+    }
+    .col-occupy{
+        height: 400px;
+        width: 576px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*----------------------------- product page -------------------------- */
+    .features{
+        margin-bottom: 20px;
+      }
+    .features > h3{
+        margin: 80px 0px 10px;
+      }
+    /* right side */
+    .feature-right-item{
+        justify-content: center;
+    }
+    .feature-right-item > i{
+        margin-top: 0px;
+    }
+    .feature-description-right > h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feature-description-right > p{
+        width: 345px;
+    }
+    /* left side */
+    .icon-right{
+        display: none;
+    }
+    .icon-left{
+        display: block;
+    }
+    .feature-left-item{
+        justify-content: center;
+        text-align: left;
+    }
+    .feature-left-item > i{
+        margin-top: 0px;
+        left: 30px;
+    }
+    .feature-left-item .feature-description-left{
+        position: relative;
+        left: 60px;
+    }
+    .feature-description-left > h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feature-description-left > p{
+        width: 345px;
+    }
+    /* recipes index.html*/
+    #recipes-title{
+        padding: 50px 0px 10px;
+        }
+    /* registration form panel image*/
+    .panel-img{
+        height: 500px; 
+    }
+    .col-occupy{
+        height: 600px;
+        width: 768px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .simulation-wrapper{
+        height: 550px;
+    }
+    /* right side */
+    .feature-right-item{
+        justify-content: center;
+    }
+    .feature-right-item > i{
+        margin-top: 0px;
+    }
+    .feature-description-right > h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feature-description-right > p{
+        width: 470px;
+        font-size: 16px;
+    }
+    /* left side */
+    .icon-right{
+        display: none;
+    }
+    .icon-left{
+        display: block;
+    }
+    .feature-left-item{
+        justify-content: center;
+        text-align: left;
+    }
+    .feature-left-item > i{
+        margin-top: 0px;
+        left: 30px;
+    }
+    .feature-left-item .feature-description-left{
+        position: relative;
+        left: 60px;
+    }
+    .feature-description-left > h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feature-description-left > p{
+        width: 470px;
+        font-size: 16px;
+    }
+    /* recipes index.html*/
+    #recipes-title{
+        padding: 50px 0px 10px;
+      }
+    /* footer */
+    .sign-form-footer{
+        width: 220px;
+        margin: 10px auto;
+        padding: 5px 0px;
+    }
+    .col-occupy{
+        height: 689px;
+        width: 768px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .simulation-wrapper{
+        height: 550px;
+    }
+    /* right side */
+    .feature-right-item{
+        justify-content: center;
+    }
+    .feature-right-item > i{
+        margin-top: 0px;
+    }
+    .feature-description-right > h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feature-description-right > p{
+        width: 550px;
+        font-size: 16px;
+    }
+    /* left side */
+    .icon-right{
+        display: none;
+    }
+    .icon-left{
+        display: block;
+    }
+    .feature-left-item{
+        justify-content: center;
+        text-align: left;
+    }
+    .feature-left-item > i{
+        margin-top: 0px;
+        left: 30px;
+    }
+    .feature-left-item .feature-description-left{
+        position: relative;
+        left: 60px;
+    }
+    .feature-description-left > h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .feature-description-left > p{
+        width: 550px;
+        font-size: 16px;
+    }
+
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .sign-form{
+        width: 75vw;
+        padding: 0px 20px;
+    }
+
+} 
+
+@media (min-width: 768px) {
+    .footer-wrapper{
+        padding: 30px 0px 0px;
+        
+    }
+    .footer-wrapper .row{
+        margin: 40px auto;
+    }
+}
+
+
+
